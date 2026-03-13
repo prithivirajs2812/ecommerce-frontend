@@ -30,7 +30,7 @@ export default function Navbar() {
                 {/* Brand */}
                 <BSNavbar.Brand as={Link} to="/" style={{ textDecoration: 'none' }}>
                     <span style={{ fontFamily: 'Playfair Display, serif', fontWeight: 800, fontSize: '1.6rem', color: '#f59e0b' }}>
-                        GunaCart
+                        LuxeCart
                     </span>
                 </BSNavbar.Brand>
 
