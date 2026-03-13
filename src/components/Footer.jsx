@@ -14,7 +14,7 @@ export default function Footer() {
                 <Row className="g-4 mb-4">
                     <Col lg={4}>
                         <h3 style={{ fontFamily: 'Playfair Display,serif', color: '#f59e0b', fontSize: '1.8rem', marginBottom: 12 }}>
-                            GunaCart
+                            LuxeCart
                         </h3>
                         <p style={{ color: '#94a3b8', lineHeight: 1.7 }}>
                             Your premium destination for high-quality products. Experience luxury shopping at its finest.
