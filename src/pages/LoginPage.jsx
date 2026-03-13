@@ -20,8 +20,8 @@ export default function LoginPage() {
         setLoading(true);
         try {
             const { data } = await apiLogin(form);
-            login({ name: data.name, email: form.email }, data.token);
-            navigate('/');
+            login({ name: data.name, email: form.email, role: data.role }, data.token);
+            navigate(data.role === 'SELLER' ? '/seller' : '/');
         } catch (err) {
             setError(err.response?.data?.message || 'Invalid email or password.');
         } finally { setLoading(false); }
